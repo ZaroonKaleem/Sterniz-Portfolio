@@ -25,12 +25,16 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import Sterniz from "./Sterniz.png"
+import SternizBg from "./Sterniz-bg.png"
 
 import ecommerce from "./ecommerce.png";
 import meme from "./meme.png";
 import confession from "./confession.png";
 
 export {
+  SternizBg,
+  Sterniz,
   logo,
   backend,
   creator,

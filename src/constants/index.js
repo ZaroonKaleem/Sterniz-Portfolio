@@ -26,16 +26,25 @@ import {
     {
       id: "about",
       title: "About",
+      url: "/about", // Update this to the actual route
     },
     {
-      id: "work",
-      title: "Work",
+      id: "news",
+      title: "News",
+      url: "/News", // Update this to the actual route
+    },
+    {
+      id: "services",
+      title: "Services",
+      url: "/Services", // Update this to the actual route
     },
     {
       id: "contact",
       title: "Contact",
+      url: "/contact", // Update this to the actual route
     },
   ];
+  
   
   const services = [
     {
