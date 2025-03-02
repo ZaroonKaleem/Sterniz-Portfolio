@@ -108,87 +108,163 @@ import {
     },
   ];
   
+  // const experiences = [
+  //   {
+  //     title: "React.js Developer",
+  //     company_name: "Starbucks",
+  //     icon: starbucks,
+  //     iconBg: "#383E56",
+  //     date: "March 2022 - present",
+  //     points: [
+  //       "Developing and maintaining web applications using React.js and other related technologies.",
+  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //       "Implementing responsive design and ensuring cross-browser compatibility.",
+  //       "Participating in code reviews and providing constructive feedback to other developers.",
+  //     ],
+  //   },
+  //   {
+  //     title: "React Native Developer",
+  //     company_name: "Tesla",
+  //     icon: tesla,
+  //     iconBg: "#E6DEDD",
+  //     date: "Jan 2023 - present",
+  //     points: [
+  //       "Developing and maintaining web applications using React.js and other related technologies.",
+  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //       "Implementing responsive design and ensuring cross-browser compatibility.",
+  //       "Participating in code reviews and providing constructive feedback to other developers.",
+  //     ],
+  //   },
+  //   {
+  //     title: "Web Developer",
+  //     company_name: "Shopify",
+  //     icon: shopify,
+  //     iconBg: "#383E56",
+  //     date: "Jan 2023 - Jan 2024",
+  //     points: [
+  //       "Developing and maintaining web applications using React.js and other related technologies.",
+  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //       "Implementing responsive design and ensuring cross-browser compatibility.",
+  //       "Participating in code reviews and providing constructive feedback to other developers.",
+  //     ],
+  //   },
+  //   {
+  //     title: "Full stack Developer",
+  //     company_name: "Meta",
+  //     icon: meta,
+  //     iconBg: "#E6DEDD",
+  //     date: "Jan 2023 - Present",
+  //     points: [
+  //       "Developing and maintaining web applications using React.js and other related technologies.",
+  //       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //       "Implementing responsive design and ensuring cross-browser compatibility.",
+  //       "Participating in code reviews and providing constructive feedback to other developers.",
+  //     ],
+  //   },
+  //   // {
+  //   //   title: "MERN Stack Developer",
+  //   //   company_name: "Meta",
+  //   //   icon: meta,
+  //   //   iconBg: "#E6DEDD",
+  //   //   date: "Jan 2023 - Present",
+  //   //   points: [
+  //   //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //   //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //   //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //   //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   //   ],
+  //   // },
+  //   // {
+  //   //   title: "MEAN Stack Developer",
+  //   //   company_name: "Meta",
+  //   //   icon: meta,
+  //   //   iconBg: "#E6DEDD",
+  //   //   date: "Jan 2023 - Present",
+  //   //   points: [
+  //   //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //   //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //   //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //   //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   //   ],
+  //   // },
+  // ];
+  
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Property Protection",
+      points:
+        "Providing comprehensive security to safeguard residential and commercial properties from unauthorized access and threats.",
+      // icon: propertyProtectionIcon,
       iconBg: "#383E56",
-      date: "March 2022 - present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Event Protection",
+      points:
+        "Ensuring the safety of attendees at concerts, corporate events, and large gatherings with professional security measures.",
+      // icon: eventProtectionIcon,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Emergency Call & Service Control Center",
+      points:
+        "Operating a 24/7 emergency response system to handle security alerts, alarms, and crisis situations efficiently.",
+      // icon: emergencyCallIcon,
       iconBg: "#383E56",
-      date: "Jan 2023 - Jan 2024",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Gatekeeper & Reception Service",
+      points:
+        "Managing access control and front-desk security for businesses, offices, and residential complexes to prevent unauthorized entry.",
+      // icon: gatekeeperIcon,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
     },
-    // {
-    //   title: "MERN Stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "MEAN Stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+    {
+      title: "Fire Safety & Security",
+      points:
+        "Implementing fire prevention strategies, conducting safety inspections, and ensuring compliance with fire regulations.",
+      // icon: fireSafetyIcon,
+      iconBg: "#E6DEDD",
+    },
+    {
+      title: "Security Service",
+      points:
+        "Providing trained security personnel for diverse environments, including corporate offices, retail spaces, and public areas.",
+      // icon: securityServiceIcon,
+      iconBg: "#383E56",
+    },
+    {
+      title: "Department Store Detective",
+      points:
+        "Detecting and preventing shoplifting and fraudulent activities within department stores through active surveillance.",
+      // icon: storeDetectiveIcon,
+      iconBg: "#E6DEDD",
+    },
+    {
+      title: "Doorman Service",
+      points:
+        "Offering professional doorman services for residential buildings, hotels, and corporate offices to ensure a secure and welcoming entry.",
+      // icon: doormanIcon,
+      iconBg: "#383E56",
+    },
+    {
+      title: "Mall Guard",
+      points:
+        "Patrolling shopping malls to prevent theft, vandalism, and disturbances, ensuring a safe shopping experience for customers.",
+      // icon: mallGuardIcon,
+      iconBg: "#E6DEDD",
+    },
+    {
+      title: "Construction Site Security",
+      points:
+        "Providing surveillance and security for construction sites to prevent trespassing, equipment theft, and unauthorized activity.",
+      // icon: constructionIcon,
+      iconBg: "#383E56",
+    },
   ];
   
+  export default services;
+  
+
   const testimonials = [
     {
       testimonial:
