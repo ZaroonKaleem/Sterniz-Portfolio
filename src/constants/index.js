@@ -36,7 +36,7 @@ import {
     {
       id: "services",
       title: "Services",
-      url: "/Services", // Update this to the actual route
+      url: "/Experience", // Update this to the actual route
     },
     {
       id: "contact",
@@ -48,19 +48,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Object Protection",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Parking Monitoring",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Money Transport",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Value Transport",
       icon: creator,
     },
   ];
@@ -161,6 +161,32 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    // {
+    //   title: "MERN Stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "MEAN Stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [

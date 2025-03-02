@@ -1,0 +1,11 @@
+Model Information:
+* title:	(free)Abstract tunnel
+* source:	https://sketchfab.com/3d-models/freeabstract-tunnel-2a9d469a60c240cc8d95dce0fa591aa1
+* author:	4boysandhats (https://sketchfab.com/4boysandhats)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "(free)Abstract tunnel" (https://sketchfab.com/3d-models/freeabstract-tunnel-2a9d469a60c240cc8d95dce0fa591aa1) by 4boysandhats (https://sketchfab.com/4boysandhats) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
