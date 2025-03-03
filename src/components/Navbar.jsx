@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
 import { logo, menu, close, SternizBg, Sterniz } from '../assets';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState('');

@@ -39,11 +39,6 @@ import {
       url: "/Experience", // Update this to the actual route
     },
     {
-      id: "services",
-      title: "Services",
-      url: "/services", // Update this to the actual route
-    },
-    {
       id: "contact",
       title: "Contact",
       url: "/contact", // Update this to the actual route
