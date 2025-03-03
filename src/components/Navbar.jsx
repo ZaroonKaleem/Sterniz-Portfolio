@@ -24,11 +24,16 @@ const Navbar = () => {
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
+            // <li key={link.id} className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
+            //   onClick={() => setActive(link.title)}
+            // >
+            //   <a href={link.url}>{link.title}</a> {/* Changed from `#id` to `url` */}
+            // </li>
             <li key={link.id} className={`${active === link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(link.title)}
-            >
-              <a href={link.url}>{link.title}</a> {/* Changed from `#id` to `url` */}
-            </li>
+    onClick={() => setActive(link.title)}
+>
+    <Link to={link.url}>{link.title}</Link>
+</li>
           ))}
         </ul>
 
