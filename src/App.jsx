@@ -28,7 +28,19 @@
 
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { About, Contact, Experience, Feedbacks, Hero, Tech, Navbar, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Footer,Feedbacks, Hero, Tech, Navbar, Works, StarsCanvas } from "./components";
+
+// const Layout = ({ children }) => (
+//   <div className="relative z-0 bg-primary">
+//     <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+//       <Navbar />
+//     </div>
+//     {children}
+//     <div className="relative z-0">
+//       <StarsCanvas />
+//     </div>
+//   </div>
+// );
 
 const Layout = ({ children }) => (
   <div className="relative z-0 bg-primary">
@@ -39,8 +51,10 @@ const Layout = ({ children }) => (
     <div className="relative z-0">
       <StarsCanvas />
     </div>
+    <Footer /> {/* Added Footer component */}
   </div>
 );
+
 
 function App() {
   return (
